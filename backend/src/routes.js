@@ -18,4 +18,4 @@ routes.post('/incidents', IncidentsController.index);
 routes.post('/incidents', IncidentsController.create);
 routes.delete('/incidents/:id', IncidentsController.delete);
 
-module.exports = routes;
+module.exports = routes; 
